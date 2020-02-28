@@ -1,4 +1,13 @@
 import React from "react";
+import { Link } from "react-router-dom";
+import styled from "styled-components";
+
+const Button = styled.button`
+  box-shadow: 5px 10px black;
+  background-color: darkcyan;
+  color: azure;
+  border-radius: 10px
+`
 
 export default function WelcomePage() {
   return (
@@ -11,6 +20,9 @@ export default function WelcomePage() {
           alt="rick"
         />
       </header>
+      <Link to ="/characters">
+        <Button>Characters</Button>
+      </Link>
     </section>
   );
 }
