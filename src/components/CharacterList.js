@@ -2,10 +2,10 @@ import React, { useEffect, useState } from "react";
 import axios from "axios";
 import styled from "styled-components";
 
-const TextColor = styled.p `
+const TextColor = styled.p`
   color: blue;
 `
-const TitleColor = styled.p `
+const TitleColor = styled.h2`
   color: red;
 `
 

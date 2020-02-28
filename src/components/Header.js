@@ -16,6 +16,9 @@ export default function Header() {
       <Link to ="/">
       <Button>Home</Button>
       </Link>
+      <Link to ="/characters">
+        <Button>Characters</Button>
+      </Link>
     </header>
   );
 }
